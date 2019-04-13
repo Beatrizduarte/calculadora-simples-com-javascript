@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora com JS</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h2>Calculadora com Javascript</h2>
+
+        <div>
+        <form name=formu>
+            <input class="visor" name="visor">
+        </form>
+    
+        <table>
+            <tr>
+                <td><button value="7" onclick="inserir(value)">7</button></td>
+                <td><button value="8" onclick="inserir(value)">8</button></td>
+                <td><button value="9" onclick="inserir(value)">9</button></td>
+                <td><button value="/" onclick="inserir(value)">/</button></td>
+            </tr>
+            <tr>
+                <td><button value="4" onclick="inserir(value)">4</button></td>
+                <td><button value="5" onclick="inserir(value)">5</button></td>
+                <td><button value="6" onclick="inserir(value)">6</button></td>
+                <td><button value="*" onclick="inserir(value)">*</button></td>
+            </tr>
+            <tr>
+                <td><button value="1" onclick="inserir(value)">1</button></td>
+                <td><button value="2" onclick="inserir(value)">2</button></td>
+                <td><button value="3" onclick="inserir(value)">3</button></td>
+                <td><button value="-" onclick="inserir(value)">-</button></td>
+            </tr>
+            <tr>
+                <td><button value="%" onclick="inserir(value)">%</button></td>
+                <td><button value="0" onclick="inserir(value)">0</button></td>
+                <td><button value="." onclick="inserir(value)">,</button></td>
+                <td><button value="+" onclick="inserir(value)">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="limpar()">C</button></td>
+                <td><button></button></td>
+                <td><button></button></td>
+                <td><button onclick="resultado()">=</button></td>
+            </tr>
+        </table>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

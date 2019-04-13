@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+*{
+    margin:0;
+    padding:0:
+}
+h2{
+    text-align: center;
+    color:#00001a;
+    font-size:35px;
+    font-family: 'Share Tech Mono', monospace;
+    margin-bottom:10px;
+}
+div{
+    background-color:#eeee6f;
+    margin:0 500px;
+    padding:10px 0;
+}
+form{
+    text-align:center;
+    
+}
+input{
+    width: 263px;
+    height:40px;
+    font-size:30px;
+    margin:10px 0;
+}
+table{
+    margin:0 auto;
+}
+button{
+    width: 60px;
+    height:60px;
+    margin:2px;
+}
